@@ -6,11 +6,11 @@
 
 ##100ms以上 or status code [45]xx
 
-enable "AxsLog',
-    ltsv               => 1,
-    response_time      => 1,
-    long_response_time => 100_000,
-    error_only         => 1;
+    enable "AxsLog',
+        ltsv               => 1,
+        response_time      => 1,
+        long_response_time => 100_000,
+        error_only         => 1;
 
 
 
